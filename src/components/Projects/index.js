@@ -64,7 +64,10 @@ const Projects = () => {
                   {' '}
                   Specification{' '}
                 </ProjectButton>
-                <ProjectButton href='#'> Solution </ProjectButton>
+                <ProjectButton href='https://namnguye6.netlify.app/'>
+                  {' '}
+                  Solution{' '}
+                </ProjectButton>
               </ProjectButtons>
             </ProjectInfo>
           </Project>
