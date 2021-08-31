@@ -6,8 +6,8 @@ export const AboutContainer = styled.div`
   z-index: 3;
   color: #fff;
   background: #7510f7;
-  position: relative;
-  height: 127vh;
+  /* position: relative; */
+  height: 100vh;
 `;
 export const AboutText = styled.div`
   position: relative;

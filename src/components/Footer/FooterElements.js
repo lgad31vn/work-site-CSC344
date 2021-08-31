@@ -3,28 +3,22 @@ import { Link } from 'react-scroll';
 import { device } from '../DeviceSizes/DeviceSizes';
 
 export const FooterContainer = styled.div`
-  position: relative;
-  height: 300px;
-  background-color: #fff;
+  height: 100vh;
+  background-color: #7510f7;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: -75px;
 `;
 export const FooterBox = styled.div`
   z-index: 999;
-  position: absolute;
-  top: 5px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 600px;
   background-color: #141c3a;
-
   color: #fff;
-  width: 600px;
+  width: 1300px;
   border-radius: 20px;
   box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
 
@@ -36,8 +30,6 @@ export const FooterBox = styled.div`
   }
 `;
 export const FooterH1 = styled.h1`
-  position: absolute;
-  top: 20px;
   font-family: 'Lato', sans-serif;
   text-shadow: 3px 3px rgb(50, 50, 70, 1);
 
@@ -50,8 +42,6 @@ export const FooterH1 = styled.h1`
   }
 `;
 export const FooterButton = styled(Link)`
-  position: absolute;
-  bottom: 30px;
   height: 40px;
   width: 250px;
   border-radius: 25px;
@@ -80,10 +70,9 @@ export const FooterButton = styled(Link)`
   }
 `;
 export const FooterQuote = styled.div`
-  position: absolute;
-  bottom: 25px;
+  margin-bottom: 10px;
   font-size: 20px;
-  color: #9e85b7;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   text-shadow: 1.2px 1.2px rgb(50, 50, 70, 0.2);
 
@@ -95,11 +84,10 @@ export const FooterQuote = styled.div`
   }
 `;
 export const FooterFooter = styled.div`
-  position: absolute;
-  bottom: -40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
 
   @media ${device.tablet} {
     font-size: 1rem;
@@ -109,42 +97,39 @@ export const FooterFooter = styled.div`
     bottom: -30px;
   }
 `;
-export const Footerimg = styled.a`
-  margin-right: 20px;
-  cursor: pointer;
-`;
+
 export const FooterSpan = styled.span`
   font-weight: bold;
-  color: #00b793;
+  color: #49fce3;
   font-family: 'Roboto', sans-serif;
 
   &:hover {
-    color: #7510f7;
+    color: #fff;
     cursor: pointer;
   }
 `;
 
 export const FooterToTop = styled(Link)`
-  position: absolute;
-  bottom: 72px;
-  border: 1px solid #e7edf7;
+  position: relative;
+  bottom: 90px;
+  left: 500px;
+  border: 1px solid #49fce3;
   font-size: 35px;
   color: #fff;
   background-color: #00b793;
   cursor: pointer;
+  border-radius: 15px;
   box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
-
+  z-index: 999;
   &:hover {
     background: #7510f7;
   }
 `;
 
 export const FooterLast = styled.div`
-  position: absolute;
   font-size: 0.6rem;
-  bottom: -68px;
   font-weight: bold;
-  color: #9e85b7;
+  color: #fff;
   font-family: 'Rubik', sans-serif;
   text-shadow: 1.2px 1.2px rgb(50, 50, 70, 0.2);
 
@@ -154,6 +139,26 @@ export const FooterLast = styled.div`
 `;
 export const LastSpan = styled.span`
   font-weight: bold;
-  color: #00b793;
+  color: #49fce3;
   font-family: 'Rubik', sans-serif;
+`;
+
+export const SitesWrapper = styled.div`
+  margin: 40px;
+`;
+export const SiteUList = styled.ul``;
+export const SiteLink = styled.li`
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+`;
+export const LinkWrapper = styled.div`
+  margin: 2px 0 2px 0;
+  a {
+    color: #49fce3;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: #fff;
+  }
 `;

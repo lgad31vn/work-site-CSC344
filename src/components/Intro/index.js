@@ -35,6 +35,10 @@ const Intro = () => {
         <Button to='project' smooth={true} duration={800}>
           Projects
         </Button>
+
+        <Button to='site' smooth={true} duration={800}>
+          Sites
+        </Button>
       </IntroBtnWrapper>
     </IntroContainer>
   );

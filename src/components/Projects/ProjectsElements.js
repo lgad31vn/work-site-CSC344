@@ -1,18 +1,9 @@
 import styled from 'styled-components';
-import portfolioImg from '../../images/Projects/Portfolio2.PNG';
-import animalGame from '../../images/Projects/AnimalGame.PNG';
-import driveThru from '../../images/Projects/DriveThru.PNG';
-import worldTime from '../../images/Projects/WorldTime.PNG';
-import pizzaOrder from '../../images/Projects/PizzaOrder.PNG';
-import DevMeetUp from '../../images/Projects/DevMeetUp.PNG';
 import { device } from '../DeviceSizes/DeviceSizes';
 
 export const ProjectsContainer = styled.div`
-  z-index: 100;
   color: #fff;
-  position: relative;
   height: 100vh;
-  margin-top: -190px;
   display: flex;
   flex-direction: column;
 
@@ -33,7 +24,6 @@ export const ProjectsWrapper = styled.div`
   justify-content: center;
   align-items: center;
   background: #fff;
-  height: 1000px;
 
   @media ${device.tablet} {
     height: 1100px;
@@ -43,6 +33,7 @@ export const ProjectsWrapper = styled.div`
   }
 `;
 export const ProjectsH1 = styled.h1`
+  margin-top: 15px;
   color: #7510f7;
   font-size: 36px;
   font-family: 'Rubik', sans-serif;
@@ -56,11 +47,11 @@ export const ProjectsH1 = styled.h1`
   }
 `;
 export const ProjectsRow = styled.div`
-  margin-top: 40px;
-  width: 910px;
+  margin-top: 20px;
+  width: 1000px;
   font-size: 20px;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 10px;
   text-align: center;
   font-size: 20px;
@@ -81,42 +72,36 @@ export const ProjectsRow = styled.div`
 `;
 export const ProjectInfo = styled.span`
   font-family: sans-serif;
-  height: 260px;
-  width: 300px;
-  position: absolute;
   display: flex;
-  opacity: 0;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 18px;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  width: 280px;
   transition: opacity 0.7s;
-  background-color: #fff;
+  border: 1px solid #7510f7;
+  border-radius: 10px;
 `;
-
+export const H1Box = styled.div`
+  margin-top: -30px;
+  background-color: #fff;
+  width: 180px;
+  z-index: 999;
+`;
 export const ProjectH1 = styled.h1`
-  font-size: 30px;
+  font-size: 25px;
   color: #000;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-shadow: 3px 3px rgb(50, 50, 70, 0.2);
-`;
-export const ProjectP = styled.p`
-  font-size: 17px;
-  color: #00b793;
-  margin-top: 3px;
-  font-weight: normal;
-  font-style: italic;
-  font-family: 'Ubuntu', sans-serif;
-  text-shadow: 2px 2px rgb(50, 50, 70, 0.2);
 `;
 
 export const ProjectButtons = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -15px;
 `;
 
 export const ProjectButton = styled.a`
@@ -138,57 +123,9 @@ export const ProjectButton = styled.a`
     color: #fff;
   }
 `;
-export const Project1Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background: url(${portfolioImg}) 100% / cover no-repeat;
-  background-position: center;
-  background-size: cover;
-`;
-export const Project2Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background: url(${animalGame}) 100% / cover no-repeat;
-  background-position: center;
-  background-size: cover;
-`;
-export const Project3Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background: url(${driveThru}) 100% / cover no-repeat;
-  background-position: center;
-  background-size: cover;
-`;
-export const Project4Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background: url(${worldTime}) 100% / cover no-repeat;
-  background-position: center;
-  background-size: cover;
-`;
-export const Project5Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background: url(${pizzaOrder}) 100% / cover no-repeat;
-  background-position: center;
-  background-size: cover;
-`;
-export const Project6Background = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background: url(${DevMeetUp}) 100% / cover no-repeat;
-  background-position: center;
-  background-size: cover;
-`;
+
 export const Project = styled.div`
-  height: 260px;
-  width: 300px;
+  height: 150px;
   margin: 5px;
   border-radius: 10px;
   display: flex;
@@ -197,17 +134,14 @@ export const Project = styled.div`
   cursor: pointer;
   overflow: hidden;
 
-  &:hover {
-    ${ProjectInfo} {
-      opacity: 1;
-    }
-    ${Project1Background}, ${Project2Background}, ${Project3Background} , ${Project4Background}, ${Project5Background}, ${Project6Background} {
-      transform: scale(1.1);
-    }
-  }
-
   @media ${device.mobileL} {
     margin: 0;
     border-radius: 0;
   }
+`;
+export const IntroBtnWrapper = styled.div`
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 `;
