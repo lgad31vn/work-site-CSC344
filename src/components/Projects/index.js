@@ -46,7 +46,7 @@ const Projects = () => {
                   {' '}
                   Specification{' '}
                 </ProjectButton>
-                <ProjectButton href='http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/assignment1/Solution.pdf'>
+                <ProjectButton href='http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/assignment1/PC_001_Solution.pdf'>
                   {' '}
                   Solution{' '}
                 </ProjectButton>
