@@ -104,7 +104,7 @@ export const FooterSpan = styled.span`
   font-family: 'Roboto', sans-serif;
 
   &:hover {
-    color: #fff;
+    color: #ffc8ff;
     cursor: pointer;
   }
 `;
@@ -158,7 +158,7 @@ export const LinkWrapper = styled.div`
     text-decoration: none;
   }
 
-  &:hover {
-    color: #fff;
+  a:hover {
+    color: #cbb5ff;
   }
 `;
