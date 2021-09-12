@@ -56,7 +56,7 @@ const Projects = () => {
           <Project data-aos='fade-up' data-offset='1400' data-aos-delay='450'>
             <ProjectInfo>
               <H1Box>
-                <ProjectH1>Second Racket Assignment</ProjectH1>
+                <ProjectH1>The Web Assignment</ProjectH1>
               </H1Box>
 
               <ProjectButtons>
@@ -65,6 +65,24 @@ const Projects = () => {
                   Specification{' '}
                 </ProjectButton>
                 <ProjectButton href='https://logannguyen.netlify.app/'>
+                  {' '}
+                  Solution{' '}
+                </ProjectButton>
+              </ProjectButtons>
+            </ProjectInfo>
+          </Project>
+          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='450'>
+            <ProjectInfo>
+              <H1Box>
+                <ProjectH1>Second Racket Assignment</ProjectH1>
+              </H1Box>
+
+              <ProjectButtons>
+                <ProjectButton href='http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/assignment2-code/PC_002_Racket_definitions.pdf'>
+                  {' '}
+                  Specification{' '}
+                </ProjectButton>
+                <ProjectButton href='http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/assignment2-code/PC_002_Solution.pdf'>
                   {' '}
                   Solution{' '}
                 </ProjectButton>
