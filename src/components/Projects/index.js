@@ -89,6 +89,24 @@ const Projects = () => {
               </ProjectButtons>
             </ProjectInfo>
           </Project>
+          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='450'>
+            <ProjectInfo>
+              <H1Box>
+                <ProjectH1>First Problem Set: BNF</ProjectH1>
+              </H1Box>
+
+              <ProjectButtons>
+                <ProjectButton href='http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/PS1_BNF/PS1_BNF.pdf'>
+                  {' '}
+                  Specification{' '}
+                </ProjectButton>
+                <ProjectButton href='http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/PS1_BNF/PS1_BNF_Solution.pdf'>
+                  {' '}
+                  Solution{' '}
+                </ProjectButton>
+              </ProjectButtons>
+            </ProjectInfo>
+          </Project>
         </ProjectsRow>
         <IntroBtnWrapper data-aos='fade-up' data-aos-delay='500'>
           <Button to='site' smooth={true} duration={800}>
