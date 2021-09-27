@@ -71,7 +71,7 @@ const Projects = () => {
               </ProjectButtons>
             </ProjectInfo>
           </Project>
-          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='450'>
+          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='550'>
             <ProjectInfo>
               <H1Box>
                 <ProjectH1>Second Racket Assignment</ProjectH1>
@@ -89,7 +89,7 @@ const Projects = () => {
               </ProjectButtons>
             </ProjectInfo>
           </Project>
-          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='450'>
+          <Project data-aos='fade-up' data-offset='1400' data-aos-delay='650'>
             <ProjectInfo>
               <H1Box>
                 <ProjectH1>First Problem Set: BNF</ProjectH1>
