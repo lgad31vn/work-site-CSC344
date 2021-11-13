@@ -151,11 +151,11 @@ const Projects = () => {
               </H1Box>
 
               <ProjectButtons>
-                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/assignment4/PC_004_RLP_HoF_n_Racket.pdf">
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/prolog_assignment1/Prolog_Assignment_1.pdf">
                   {" "}
                   Specification{" "}
                 </ProjectButton>
-                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/assignment4/Submission.pdf">
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/prolog_assignment1/Prolog_assignment_1_submission.pdf">
                   {" "}
                   Solution{" "}
                 </ProjectButton>
