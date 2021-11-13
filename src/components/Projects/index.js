@@ -144,7 +144,7 @@ const Projects = () => {
               </ProjectButtons>
             </ProjectInfo>
           </Project>
-          <Project data-aos="fade-up" data-offset="1400" data-aos-delay="850">
+          <Project data-aos="fade-up" data-offset="1400" data-aos-delay="900">
             <ProjectInfo>
               <H1Box>
                 <ProjectH1>First Prolog Assignment</ProjectH1>
@@ -155,7 +155,7 @@ const Projects = () => {
                   {" "}
                   Specification{" "}
                 </ProjectButton>
-                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/prolog_assignment1/Prolog_assignment_1_submission.pdf">
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/prolog_assignment1/Submission.pdf">
                   {" "}
                   Solution{" "}
                 </ProjectButton>
