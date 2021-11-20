@@ -162,6 +162,24 @@ const Projects = () => {
               </ProjectButtons>
             </ProjectInfo>
           </Project>
+          <Project data-aos="fade-up" data-offset="1400" data-aos-delay="950">
+            <ProjectInfo>
+              <H1Box>
+                <ProjectH1>Second Prolog Assignment</ProjectH1>
+              </H1Box>
+
+              <ProjectButtons>
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/prolog_assignment2/Prolog_Assignment_2.pdf">
+                  {" "}
+                  Specification{" "}
+                </ProjectButton>
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/prolog_assignment2/Submission.pdf">
+                  {" "}
+                  Solution{" "}
+                </ProjectButton>
+              </ProjectButtons>
+            </ProjectInfo>
+          </Project>
         </ProjectsRow>
         <IntroBtnWrapper data-aos="fade-up" data-aos-delay="500">
           <Button to="site" smooth={true} duration={800}>
