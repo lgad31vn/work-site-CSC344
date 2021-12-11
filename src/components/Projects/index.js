@@ -92,7 +92,7 @@ const Projects = () => {
           <Project data-aos="fade-up" data-offset="1400" data-aos-delay="650">
             <ProjectInfo>
               <H1Box>
-                <ProjectH1>First Problem Set: BNF</ProjectH1>
+                <ProjectH1> Problem Set: BNF</ProjectH1>
               </H1Box>
 
               <ProjectButtons>
@@ -174,6 +174,42 @@ const Projects = () => {
                   Specification{" "}
                 </ProjectButton>
                 <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/prolog_assignment2/Submission.pdf">
+                  {" "}
+                  Solution{" "}
+                </ProjectButton>
+              </ProjectButtons>
+            </ProjectInfo>
+          </Project>
+          <Project data-aos="fade-up" data-offset="1400" data-aos-delay="1000">
+            <ProjectInfo>
+              <H1Box>
+                <ProjectH1>First Haskell Assignment</ProjectH1>
+              </H1Box>
+
+              <ProjectButtons>
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/haskell_assignment1/Haskell_Assignment.pdf">
+                  {" "}
+                  Specification{" "}
+                </ProjectButton>
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/haskell_assignment1/Submission.pdf">
+                  {" "}
+                  Solution{" "}
+                </ProjectButton>
+              </ProjectButtons>
+            </ProjectInfo>
+          </Project>
+          <Project data-aos="fade-up" data-offset="1400" data-aos-delay="1050">
+            <ProjectInfo>
+              <H1Box>
+                <ProjectH1> Problem Set: Rust</ProjectH1>
+              </H1Box>
+
+              <ProjectButtons>
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/Rust_PS1/PS2_MM_Rust.pdf">
+                  {" "}
+                  Specification{" "}
+                </ProjectButton>
+                <ProjectButton href="http://cs.oswego.edu/~nnguyen6/CSC344/pdfFiles/Rust_PS1/forPM2.pdf">
                   {" "}
                   Solution{" "}
                 </ProjectButton>
