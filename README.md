@@ -1,4 +1,4 @@
-                             ⚡️ Personal Portfolio ⚡️
+                             ⚡️ Work Site for CSC 344⚡️
 
 CSC 344 Work Site! 
 
