@@ -1,6 +1,4 @@
-                             ⚡️ Work Site for CSC 344⚡️
-
-CSC 344 Work Site
+                             ⚡️ CSC 344 Work Site⚡️
 
 Live: https://logannguyen.netlify.app
 
